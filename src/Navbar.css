@@ -1,0 +1,173 @@
+.nav {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
+  background-color: #84bfd3;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  z-index: 1;
+  height: 80px;
+  justify-content: space-between;
+  flex-direction: row;
+  display:flex;
+}
+
+.item{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contacts{
+  color:black
+}
+.contacts:hover{
+  color: #2E8BC0
+}
+.bar {
+  list-style-type: none;
+}
+.tab {
+    float: right;
+    color: #2E8BC0;
+  }
+.name{
+  left: 50%;
+  top: 50%;
+    float:left;
+    height:50px;
+    width:50px;
+}
+  
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    text-align:center; 
+}
+
+  a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  a:hover {
+    color: #2E8BC0;
+  }
+
+  .image-txt-container {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+    animation: fadein 2s;
+    animation-timing-function: ease-in;
+}
+.image-txt-container .content {
+  font-size: 3rem;
+  position: absolute; /* Position the background text */
+  bottom: 30%; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 125%; /* Full width */
+  padding:20px; /* Some padding */
+
+}
+.second-container {
+  display:flex;
+  text-align:center; 
+  flex-direction: column;
+  justify-content: space-between;
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s; /* Firefox < 16 */
+  -ms-animation: fadein 3s; /* Internet Explorer */
+  -o-animation: fadein 3s; /* Opera < 12.1 */
+  animation: fadein 3s;
+  animation-timing-function: cubic-bezier(.85,-0.25,.43,.98);
+}
+
+.some-container {
+  position:relative;
+  display:flex;
+  text-align:center; 
+  flex-direction: row;
+  justify-content: space-between;
+
+  -webkit-animation: fadeup 6s; 
+  -moz-animation: fadeup 6s; 
+  -ms-animation: fadeup 6s; 
+  -o-animation: fadeup 6s; 
+  animation: fadeup 6s; 
+  animation-timing-function: cubic-bezier(.85,-0.25,.43,.98);
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.5; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.5; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.5; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.5; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.5; }
+}
+
+@keyframes fadeup {
+  from { opacity: 0; padding-top: 100px; }
+  to   { opacity: 0.5; padding-top: 0px; }
+}
+  .text{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-start;
+    line-height: 200%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 110px 100px;
+  }
+  
+  .header{
+    position: relative;
+    /* margin-top:70px; */
+    line-height: 150%;
+    /* margin-bottom: 30px; */
+  }
+  .article{
+    text-align: left;
+    text-indent: 2em;
+  }
+  .contact{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
