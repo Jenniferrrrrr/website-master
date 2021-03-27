@@ -1,5 +1,5 @@
 {
-  "homepage": "https://jenniferrrrrr.github.io/website/",
+  "homepage": "https://jenniferrrrrr.github.io/website-master/",
   "name": "trial",
   "version": "0.1.0",
   "private": true,
@@ -36,6 +36,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.1.1"
+    "gh-pages": "^2.2.0"
   }
 }
