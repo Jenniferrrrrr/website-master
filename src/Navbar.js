@@ -13,7 +13,7 @@ class Navbar extends React.Component{
             <ScrollToTop />
             <div className="container">
             <div className="nav">
-                <a href="/website/"><img className="icons" width="60px" height="60px" src={Phoenix}/></a>  
+                <a href="/website-master/"><img className="icons" width="60px" height="60px" src={Phoenix}/></a>  
                 <div className="item">     
                     <ul className="bar">
                         <li className="tab"><Link to="/">HOME</Link></li>
@@ -76,7 +76,7 @@ const Contacts = () =>{
     return (
     <div style={{textAlign:"left"}} className="text">
     <h2>Need an HVAC Contractor in GTA Or Surrounding Area?</h2>
-    <p>If you are interested in learning more about NorthRock Mechanical and how we can help with your commercial HVAC needs, please don't hesitate to contact us.</p>
+    <p>If you are interested in learning more about Phoenix Mechanical and how we can help with your commercial HVAC needs, please don't hesitate to contact us.</p>
     <p>We offer a no-charge consultation in which we will discuss your specific requirements and determine the optimal solution for your building.</p>
     <h2>Contact Information</h2>
     <div className="contact">  
